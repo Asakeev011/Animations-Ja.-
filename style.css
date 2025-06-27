@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(251, 252, 255);
+    background-image  : url(https://zefirka.club/uploads/posts/2022-10/1666984005_1-zefirka-club-p-fon-doroga-dlya-detei-1.jpg);
+    background-repeat: no-repeat;
+   margin: 0;
+   padding: 0;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+
+}
+div{
+    width:700px;
+    height: 200px;
+    /* border: 2px solid; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    /* background-color: rgb(0, 255, 17); */
+    background-image: url(https://sunveter.ru/uploads/posts/2014-01/1389531129_ford_mustang.gif);
+    box-shadow:0px 0px  15 px 10px;
+    position: absolute;
+    animation: Ja 4s infinite;
+    transition: 2s;
+    margin-top: 950px;
+    
+
+}
+
+
+@keyframes Ja {
+    from {
+        left: 80px;
+    }
+    to {
+        left: 1800px;
+    }
+    
+    
+}
+
+/* @keyframes mymove {
+    0% {
+        left: 100px;
+        top: 100px;
+    }
+    25% {
+        left: 200px;
+        top: 200px;
+}
+50% {
+    left: 300px;
+    top: 300px;
+}
+75% {
+    left: 800px;
+    top: 400px;
+}
+100% {
+    left: 100px;
+    top: 700px;
+}
+    
+} */
